@@ -12,8 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80vw;  /* Make it responsive */
-  max-width: 600px;  /* Prevent it from being too wide */
+  width: 80vw;
+  max-width: 600px;
   padding: 25px;
   background: url("/bg1.jpg") no-repeat center center;
   background-size: cover;
