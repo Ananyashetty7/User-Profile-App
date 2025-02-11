@@ -1,0 +1,46 @@
+# Node modules (prevents unnecessary files from being uploaded)
+node_modules/
+dist/
+
+# Environment variables (security measure)
+.env
+
+# Vite & build-related files
+.vite/
+.cache/
+*.log
+*.lock
+
+# Dependencies & system files
+package-lock.json
+yarn.lock
+.DS_Store
+Thumbs.db
+
+# GitHub Pages cache (ensures smooth redeployment)
+gh-pages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
