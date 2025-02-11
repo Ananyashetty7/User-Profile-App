@@ -1,17 +1,26 @@
+/* full screen*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Soft gradient */
+}
+
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; 
+  width: 100vw;
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  background-size: cover;
+  background-position: center;
 }
 
 
 .profile-card {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 80vw;
   max-width: 600px;
   padding: 25px;
