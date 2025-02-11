@@ -1,3 +1,25 @@
+# Node modules (prevents unnecessary files from being uploaded)
+node_modules/
+dist/
+
+# Environment variables (security measure)
+.env
+
+# Vite & build-related files
+.vite/
+.cache/
+*.log
+*.lock
+
+# Dependencies & system files
+package-lock.json
+yarn.lock
+.DS_Store
+Thumbs.db
+
+# GitHub Pages cache (ensures smooth redeployment)
+gh-pages/
+
 # Logs
 logs
 *.log
